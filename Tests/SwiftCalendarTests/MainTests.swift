@@ -7,7 +7,7 @@
 import XCTest
 import Foundation
 
-@testable import TestCalendar
+@testable import SwiftCalendar
 
 class MainTests: XCTestCase {
     

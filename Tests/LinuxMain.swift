@@ -16,9 +16,8 @@
 
 import XCTest
 
-@testable import TestCalendarTests
+@testable import SwiftCalendarTests
 
 XCTMain([
     testCase(MainTests.allTests)
 ])
-LinuxMain.swift (END)
