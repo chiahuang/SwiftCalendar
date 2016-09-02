@@ -4,7 +4,7 @@ var calendar: Calendar
 #if os(Linux)
     print("Linux: Before initialize instance of Calendar")
     calendar = Calendar(identifier: .buddhist)
-    print("Linux: Calendar instance is initialized", calender)
+    print("Linux: Calendar instance is initialized", calendar)
 #else
     print("Mac: Before initialize instance of Calendar")
     calendar = Calendar(identifier: .buddhist)
