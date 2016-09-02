@@ -17,10 +17,19 @@ class MainTests: XCTestCase {
         ]
     }
     
-    func testCalendar() {
+    func testCalendarInitializerWithIdentifierISO8601() {
         testCalendarWithIdentifierISO8601()
+    }
+    
+    func testCalendarInitializerWithIdentifierBuddhist() {
         testCalendarWithIdentifierBuddhist()
+    }
+    
+    func testCalendarInitializerWithIdentifierIndian() {
         testCalendarWithIdentifierIndian()
+    }
+    
+    func testCalendarInitializerWithIdentifierJapanese() {
         testCalendarWithIdentifierJapanese()
     }
     
