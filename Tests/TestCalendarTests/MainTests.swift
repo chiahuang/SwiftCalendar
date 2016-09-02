@@ -18,7 +18,10 @@ class MainTests: XCTestCase {
     }
     
     func testCalendar() {
-        testCalendarinLinux()
+        testCalendarWithIdentifierISO8601()
+        testCalendarWithIdentifierBuddhist()
+        testCalendarWithIdentifierIndian()
+        testCalendarWithIdentifierJapanese()
     }
     
 }
