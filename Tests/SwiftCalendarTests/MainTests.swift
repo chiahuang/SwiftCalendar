@@ -13,23 +13,26 @@ class MainTests: XCTestCase {
     
     static var allTests: [(String, (MainTests) -> () throws -> Void)] {
         return [
-            ("testCalendar", testCalendar)
+            ("testCalendarInitializerWithISO8601", testCalendarInitializerWithISO8601),
+            ("testCalendarInitializerWithBuddhist", testCalendarInitializerWithBuddhist),
+            ("testCalendarInitializerWithIndian", testCalendarInitializerWithIndian),
+            ("testCalendarInitializerWithJapanese", testCalendarInitializerWithJapanese)
         ]
     }
     
-    func testCalendarInitializerWithIdentifierISO8601() {
+    func testCalendarInitializerWithISO8601() {
         testCalendarWithIdentifierISO8601()
     }
     
-    func testCalendarInitializerWithIdentifierBuddhist() {
+    func testCalendarInitializerWithBuddhist() {
         testCalendarWithIdentifierBuddhist()
     }
     
-    func testCalendarInitializerWithIdentifierIndian() {
+    func testCalendarInitializerWithIndian() {
         testCalendarWithIdentifierIndian()
     }
     
-    func testCalendarInitializerWithIdentifierJapanese() {
+    func testCalendarInitializerWithJapanese() {
         testCalendarWithIdentifierJapanese()
     }
     
